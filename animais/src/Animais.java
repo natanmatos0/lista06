@@ -30,8 +30,9 @@ public class Animais {
     }
 
 
-    public void defNumSerie(){
+    public int defNumSerie(){
         this.numSerie = numSerie + 1;
+        return this.numSerie;
     }
 
 
