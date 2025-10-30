@@ -7,7 +7,7 @@ public class Main {
 
 
         Animais cavalo = new Animais("peixe", "masculino" );
-        System.out.println("Eu sou o animal: " + cavalo.defNumSerie());
+        System.out.println("Eu sou o animal: " + Animais.getQuantidadeDeAnimais() );
 
 
 
