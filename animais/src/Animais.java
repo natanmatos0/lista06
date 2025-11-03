@@ -39,4 +39,33 @@ public class Animais {
     public void infoAnimais(){
         System.out.printf("Meu nome é: %s %nMinha especie é: %s %nEu nasci em: %s" , nome, especie, dataDeNascimento);
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getNumSerie() {
+        return numSerie;
+    }
+
+    public String getDataDeNascimento() {
+        return dataDeNascimento;
+    }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
 }
